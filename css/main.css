@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+     .nav-button{
+
+        @apply font-mono bg-neutral-800 hover:bg-neutral-600 active:bg-green-600 active:text-neutral-800 text-green-500 pt-2 pb-2 pl-6 pr-6 m-4 rounded-lg duration-100;
+
+    }
+
+    .session-button{
+
+        @apply font-mono text-neutral-200 text-sm bg-green-700 hover:bg-green-600 pt-2 pb-2 pl-6 pr-6 m-4 rounded-sm duration-100;
+
+    }
+
+    .input{
+
+        @apply pl-2 py-1 text-sm text-neutral-200 bg-neutral-600 border-2 border-green-600 border-neutral-600 caret-green-600
+
+    }
+
+    .label{
+
+        @apply text-xs font-medium py-1 px-2 uppercase rounded text-neutral-300 bg-neutral-600 w-auto flex justify-center content-center mr-2 mt-2
+
+    }
+
+    .div-animation{
+
+        @apply 
+
+    }
+
+
+
+}

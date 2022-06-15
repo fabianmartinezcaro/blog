@@ -1,0 +1,14 @@
+{
+  "name": "fabianmartinezblog",
+  "version": "1.0.0",
+  "description": "Blog de Fabian Martinez",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "postcss css/main.css -o public/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-cli": "^9.1.0"
+  }
+}

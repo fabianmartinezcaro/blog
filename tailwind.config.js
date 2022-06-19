@@ -3,6 +3,11 @@ module.exports = {
   content: ['/Users/fmartinez/FRONTEND_PROJECTS/fabianmartinezblog/public/index.html'],
   theme: {
     extend: {
+      fontFamily:{
+        'lato':['Lato', 'sans-serif']
+
+      },
+
       keyframes: {
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },

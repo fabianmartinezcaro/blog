@@ -7,13 +7,14 @@
      .nav-button{
 
         @apply 
-        font-mono
+        font-lato
+        text-lg
         bg-neutral-200
         border-b-4
         border-b-transparent
         hover:border-b-neutral-900 
+        hover:duration-200 
         active:border-sky-500 
-        active:duration-300 
         text-neutral-900 
         py-2
         px-6 
@@ -23,39 +24,6 @@
 
     }
 
-    /*SIGN IN BUTTON*/
-
-    .session-button{
-
-        @apply 
-        font-mono 
-        text-neutral-200 
-        text-sm 
-        bg-neutral-900 
-        hover:border-b-4
-        border-b-transparent
-        hover:border-b-sky-600 
-        hover:duration-300
-        active:bg-sky-600
-        active:text-neutral-900  
-        py-2 
-        px-6 
-        m-4;
-
-    }
-
-    .input{
-
-        @apply 
-        pl-2 
-        py-1 
-        text-sm 
-        text-neutral-200 
-        bg-neutral-600 border-2 
-        border-neutral-300 
-        caret-green-600
-
-    }
 
     .label{
 
@@ -75,6 +43,13 @@
         mr-2 
         mt-2
         hover:bg-neutral-500
+
+    }
+
+    .content-container{
+
+        @apply
+
 
     }
 

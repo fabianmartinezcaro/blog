@@ -10,7 +10,7 @@
     
 
 </head>
-<body class="bg-neutral-300 font-lato grid grid-cols-2 gap-4">
+<body class="bg-neutral-300 font-lato grid grid-cols-2 gap-y-4">
     
     <!--NAVBAR-->
     <div class="bg-neutral-200 flex flex-row items-stretch justify-between col-span-2">
@@ -31,33 +31,64 @@
 
     </div>
 
-    <div class="mx-4">
-        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center">
+    <div class="mx-4 grid grid-cols-1 gap-y-4">
+        <!--BIO-->
+        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center rounded-lg w-fit h-max">
 
             <div class="mx-auto py-6">
-                <img class="w-56 h-56 rounded-full shadow-sm" src="/resources/Foto de Fabián.jpeg" alt="">
+                <img class="w-56 h-56 rounded-full" src="/resources/Foto de Fabián.jpeg" alt="">
             </div>
             
-        <div class="mr-14">
-            <p class="text-lg text-neutral-900">Hey Developer! I'm Fabian Martinez and I'm going to teach you all about Frontend Programming</p>
+            <div class="mr-14">
+            <p class="text-md text-neutral-900 pb-2">Hey! I'm Fabian Martinez, Freelance Full Stack Developer and I'm going to teach you all about Web Development.</p>
 
-            <div class="flex flex-row pt-2 flex-wrap">
-                <span class="label">#HTML</span>
-                <span class="label">#CSS</span>
-                <span class="label">#JAVASCRIPT</span>
-                <span class="label">#NEXT.JS</span>
-                <span class="label">#TAILWINDCSS</span>
+                <div class="flex flex-row pt-2 flex-wrap border-t-2 border-t-neutral-400">
+                    <span class="label">#HTML</span>
+                    <span class="label">#CSS</span>
+                    <span class="label">#JAVASCRIPT</span>
+                    <span class="label">#NEXTJS</span>
+                    <span class="label">#NODEJS</span>
+                    <span class="label">#TAILWINDCSS</span>
+                    <span class="label">#GRAPHQL</span>
+                    <span class="label">#TYPESCRIPT</span>
+                    <span class="label">#MYSQL</span>
+                </div>
             </div>
-        </div>
     
         </div>
     
         <div class="bg-neutral-200">
-    
+             
+            hello
     
         </div>
     </div>
 
+    <div class="bg-neutral-200 mr-4 h-auto rounded-lg">
+
+        <div class="mt-4">
+            <span class="text-neutral-500 font-medium text-lg mx-4">Recent Articles</span>
+        </div>
+
+        <!--ARTICLE-->
+        <div class="flex flex-row justify-between article-component article-title article-description">
+
+            <!--ARTICLE - TITLE & DESCRIPTION-->
+            <div class="">
+                <h1 class="font-bold border-b-2 border-neutral-900">MYSQL IN 10 MINUTES</h1>
+                <p class="pt-2 text-neutral-500">Learn how to use MySQL just in 10 minutes in 5 simple steps</p>
+                <span class="flex justify-end content-end items-baseline text-sm font-bold pt-12">By Fabian Martinez</span>
+            </div>
+
+            <!--ARTICLE - IMAGES-->
+            <div class="flex items-end w-48 h-32 bg-neutral-500">
+                <img class="w-48 h-32 border-2 border-neutral-400 hover:bg-neutral-700/50" src="/resources/mysql.jpeg" alt="">
+            </div>
+
+        </div>
+        
+
+    </div>
 
 
 </body>

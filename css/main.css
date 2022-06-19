@@ -35,20 +35,35 @@
         uppercase 
         rounded 
         text-neutral-300 
-        bg-neutral-600 
+        bg-neutral-900 
         w-auto 
         flex 
         justify-center 
         content-center 
         mr-2 
         mt-2
-        hover:bg-neutral-500
+        hover:bg-sky-800
+        hover:duration-200
+        hover:cursor-pointer
 
     }
 
-    .content-container{
+    .article-component{
 
-        @apply
+        @apply 
+        text-neutral-900 border-2
+        border-neutral-300 
+        w-auto 
+        h-auto 
+        my-4 
+        mx-4 
+        py-4 
+        px-4
+        rounded-lg
+        hover:bg-neutral-400
+        hover:text-neutral-900
+        hover:border-sky-600
+        hover:duration-500;
 
 
     }

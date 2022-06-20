@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'lato':['Lato', 'sans-serif'],
-        'borlow-semi-condensed': ['Borlow Semi Condensed', 'grotesk']
+        'barlow-semi-condensed': ['Barlow Semi Condensed', 'grotesk']
       },
 
       keyframes: {

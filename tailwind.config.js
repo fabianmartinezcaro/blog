@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'lato':['Lato', 'sans-serif']
-
+        'lato':['Lato', 'sans-serif'],
+        'borlow-semi-condensed': ['Borlow Semi Condensed', 'grotesk']
       },
 
       keyframes: {

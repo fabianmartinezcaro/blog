@@ -27,13 +27,14 @@
     .label{
 
         @apply 
-        text-xs 
+        text-sm 
         font-medium 
         py-1 
         px-2 
         uppercase 
         rounded 
-        text-neutral-300 
+        text-neutral-300
+        hover:text-neutral-900
         bg-neutral-900 
         w-auto 
         flex 
@@ -41,7 +42,7 @@
         content-center 
         mr-2 
         mt-2
-        hover:bg-sky-800
+        hover:bg-sky-500
         hover:duration-200
         hover:cursor-pointer
 

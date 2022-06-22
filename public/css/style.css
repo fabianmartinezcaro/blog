@@ -517,8 +517,9 @@ video {
   margin: 1rem;
   border-radius: 0.125rem;
   border-bottom-width: 4px;
+  border-bottom-color: transparent;
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1.5rem;
@@ -532,7 +533,7 @@ video {
 }
 .nav-button:hover {
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));
+  border-bottom-color: rgb(23 23 23 / var(--tw-border-opacity));
   transition-duration: 200ms;
 }
 .nav-button:active {
@@ -759,9 +760,6 @@ video {
 }
 .font-medium {
   font-weight: 500;
-}
-.font-light {
-  font-weight: 300;
 }
 .text-neutral-900 {
   --tw-text-opacity: 1;

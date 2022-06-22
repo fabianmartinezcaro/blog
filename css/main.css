@@ -61,7 +61,6 @@
         py-4 
         px-4
         rounded-lg
-        hover:bg-neutral-400
         hover:text-neutral-900
         hover:border-sky-600
         hover:duration-500;

@@ -590,8 +590,6 @@ video {
 .article-component:hover {
   --tw-border-opacity: 1;
   border-color: rgb(2 132 199 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(163 163 163 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
   transition-duration: 500ms;
@@ -653,6 +651,14 @@ video {
 }
 .w-48 {
   width: 12rem;
+}
+.w-max {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .grid-flow-col {
   grid-auto-flow: column;
@@ -760,6 +766,9 @@ video {
 }
 .font-medium {
   font-weight: 500;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 .text-neutral-900 {
   --tw-text-opacity: 1;

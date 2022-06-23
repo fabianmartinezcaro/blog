@@ -74,5 +74,26 @@
 
     }
 
+    .input-black-style{
+
+        @apply
+        border-2
+        border-neutral-500
+        bg-neutral-700
+        text-sm
+        
+
+    }
+
+    .button-black{
+
+        @apply
+        px-4
+        rounded-md
+        hover:bg-sky-500
+        hover:duration-300
+
+    }
+
 
 }

@@ -78,6 +78,10 @@
 
         @apply
         border-2
+        w-64
+        h-8
+        pl-2
+        my-2
         border-neutral-500
         bg-neutral-700
         text-sm
@@ -88,8 +92,14 @@
     .button-black{
 
         @apply
+        border-2
+        border-sky-500
+        font-medium
+        h-8
         px-4
-        rounded-md
+        mx-4
+        my-2
+        rounded-sm
         hover:bg-sky-500
         hover:duration-300
 

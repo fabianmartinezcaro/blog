@@ -20,7 +20,7 @@
 
         <div class="text-neutral-200 text-lg font-semibold grid grid-flow-col justify-center">
         
-            <button class="nav-button">Home</button>
+            <button class="nav-button">Contact</button>
             <button class="nav-button">Articles</button>
             <button class="nav-button">Resources</button>
             <a href="https://twitter.com/devfmc" target="_blank"><button class="nav-button">Twitter</button></a>
@@ -32,7 +32,7 @@
 
     <div class="mx-4 grid grid-cols-1 gap-y-4">
         <!--BIO-->
-        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center rounded-lg w-fit h-max">
+        <div class="transition ease-linear delay-100 hover:-translate-y-2 hover:shadow-lg hover:scale-100 bg-neutral-200 grid grid-cols-2 justify-center content-center items-center rounded-lg w-fit h-max">
 
             <div class="mx-auto py-6">
                 <img class="w-56 h-56 rounded-full" src="https://i.imgur.com/aG9WnBV.jpg" alt="">
@@ -56,14 +56,10 @@
     
         </div>
     
-        <div class="bg-neutral-200">
-             
-            hello
     
-        </div>
     </div>
 
-    <div class="bg-neutral-200 mr-4 h-auto rounded-lg">
+    <div class="bg-sky-500 mr-4 h-auto rounded-lg">
 
         <div class="mt-4">
             <span class="text-neutral-500 font-medium text-lg mx-4">Recent Articles</span>
@@ -80,8 +76,8 @@
             </div>
 
             <!--IMAGES-->
-            <div class="flex items-end bg-gray-700 w-">
-                <img class="w-48 h-32 border-2 border-neutral-400" src="https://i.imgur.com/8tMUqYB.jpg" alt="">
+            <div class="flex items-end bg-gray-500">
+                <img class="w-48 h-32" src="https://i.imgur.com/8tMUqYB.jpg" alt="">
             </div>
 
         </div>
@@ -91,28 +87,35 @@
 
 
     <!--FOOTER-->
-    <div class="flex flex-row justify-evenly fixed bottom-0 w-full h-auto py-6 bg-neutral-900 text-neutral-200 font-light">
+    <div class="fixed bottom-0 w-full h-auto py-6 bg-neutral-900 text-neutral-200 font-light">
 
-        <div class="flex flex-col">
-            <span class="font-bold">Socials</span>
-            <a href="">Twitter</a>
-            <a href="">Github</a>
-        </div>
+        <div class="flex flex-row justify-evenly ">
 
-        <div class="flex flex-col">
-            <span class="font-bold">More Info</span>
-            <a href="">Contact</a>
-            <a href="">About Me</a>
-            <a href="">What I use</a>
-        </div>
-
-        <div class="flex flex-col">
-            <span class="font-bold">Newsletter</span>
-            <div class="flex flex-row justify-center content-center">
-                <input class="input-black-style" type="text">
-                <button class="button-black">Subscribe</button>
+            <div class="flex flex-col">
+                <span class="font-bold">Socials</span>
+                <a href="">Twitter</a>
+                <a href="">Github</a>
             </div>
-            
+    
+            <div class="flex flex-col">
+                <span class="font-bold">More Info</span>
+                <a href="">Contact</a>
+                <a href="">About Me</a>
+                <a href="">What I use</a>
+            </div>
+    
+            <div class="flex flex-col">
+                <span class="font-bold">Newsletter</span>
+                <div class="flex flex-row justify-center content-center">
+                    <input class="input-black-style" type="text" placeholder="Your Email...">
+                    <button class="button-black">Subscribe</button>
+                </div>    
+            </div>
+
+        </div>
+
+        <div class="flex flex-col justify-center content-center items-center">
+            <p class="pt-10 pb-2 text-neutral-500"> @2022 Fabian Martinez | All rights reserved</p>
         </div>
 
     </div>

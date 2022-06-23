@@ -52,23 +52,16 @@
     .article-component{
 
         @apply 
-        text-neutral-900 
-        border-l-8
-        border-t-2
-        border-r-2
-        border-t-neutral-300
-        border-b-neutral-300
-        border-r-neutral-300
-        border-b-2
-        border-l-neutral-900
         w-auto 
         h-auto 
         my-4 
         mx-4 
         py-4 
         px-4
+        border
+        border-sky-900
+        text-neutral-900
         hover:text-neutral-900
-        hover:border-l-sky-600
         hover:duration-500;
 
 
@@ -82,9 +75,12 @@
         h-8
         pl-2
         my-2
+        rounded-sm
         border-neutral-500
         bg-neutral-700
+        font-medium
         text-sm
+        placeholder:text-neutral-500
         
 
     }

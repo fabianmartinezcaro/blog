@@ -576,10 +576,15 @@ video {
   margin-right: 1rem;
   height: auto;
   width: auto;
-  border-radius: 0.5rem;
-  border-width: 2px;
+  border-left-width: 8px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-top-color: rgb(212 212 212 / var(--tw-border-opacity));
+  border-bottom-color: rgb(212 212 212 / var(--tw-border-opacity));
+  border-right-color: rgb(212 212 212 / var(--tw-border-opacity));
   --tw-border-opacity: 1;
-  border-color: rgb(212 212 212 / var(--tw-border-opacity));
+  border-left-color: rgb(23 23 23 / var(--tw-border-opacity));
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -589,10 +594,16 @@ video {
 }
 .article-component:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(2 132 199 / var(--tw-border-opacity));
+  border-left-color: rgb(2 132 199 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
   transition-duration: 500ms;
+}
+.fixed {
+  position: fixed;
+}
+.bottom-0 {
+  bottom: 0px;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
@@ -649,13 +660,16 @@ video {
 .w-56 {
   width: 14rem;
 }
-.w-48 {
-  width: 12rem;
-}
 .w-max {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+.w-48 {
+  width: 12rem;
+}
+.w-full {
+  width: 100%;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -671,6 +685,9 @@ video {
 }
 .flex-row {
   flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -695,6 +712,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
 }
 .gap-y-4 {
   row-gap: 1rem;
@@ -734,9 +754,21 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
+.bg-neutral-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -766,6 +798,9 @@ video {
 }
 .font-medium {
   font-weight: 500;
+}
+.font-light {
+  font-weight: 300;
 }
 .uppercase {
   text-transform: uppercase;

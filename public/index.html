@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
-<body class="bg-neutral-300 font-montserrat grid grid-cols-2 gap-y-4">
+<body class="bg-neutral-300 font-montserrat grid grid-cols-1">
     
     <!--NAVBAR-->
     <div class="bg-neutral-200 flex flex-row items-stretch justify-between col-span-2">
@@ -31,9 +31,9 @@
 
     </div>
 
-    <div class="mx-4 grid grid-cols-1 gap-y-4">
+<div class="grid grid-cols-2 gap-x-4 my-4 mx-4">
         <!--BIO-->
-        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center border border-neutral-400 rounded-lg w-fit h-max">
+        <div class="bg-neutral-200 grid grid-cols-2 col-span-1 justify-center content-center items-center h-fit border border-neutral-400 rounded-lg">
 
             <div class="mx-auto py-6">
                 <img class="w-56 h-56 rounded-full" src="https://i.imgur.com/aG9WnBV.jpg" alt="">
@@ -57,36 +57,98 @@
     
         </div>
     
-    
-    </div>
 
-    
-    <!--ARTICLE-->
-    <div class="flex flex-wrap justify-center content-center flex-col h-auto border border-neutral-400 bg-neutral-200 mr-4 rounded-lg" onclick="window.location='/public/article.html';">
+    <!--SECTION: ARTICLES-->
+    <div class="grid grid-cols-1 gap-y-4">
 
-                <!-- ATICLE TITLE -->
-                <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Curso Básico)</h1>
+        <!--ARTICLE-->
+        <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
+        <!-- ARTICLE TITLE -->
+            <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Contenido del curso básico)</h1>
                 <div class="flex flex-row justify-start mx-4 py-2">
-                    <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">By Fabian Martinez</span>
+                    <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">Por Fabian Martinez</span>
                     <span class="flex font-bold text-neutral-500">-</span>
                     <span class="px-2 text-md font-medium text-neutral-500">Hace 3 días</span>
-                </div>
-                <div class="flex flex-row flex-wrap mx-4">
+            </div>
+            <div class="flex flex-row flex-wrap mx-4">
                     <span class="label">#HTML</span>
                     <span class="label">#CSS</span>
-                </div>
+            </div>
                 <p class="flex flex-wrap mx-4 pt-4 text-md font-medium text-neutral-500">Aprende a como crear la estrutura básica de una web creando su header, el article section y su footer. 
                 Todo esto y mucho más en este articulo...
-                </p>        
+            </p>        
 
-                <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
-            
+        <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
+        </div>
+        
+
+        <!--ARTICLE-->
+        <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
+            <!-- ARTICLE TITLE -->
+                <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Contenido del curso básico)</h1>
+                    <div class="flex flex-row justify-start mx-4 py-2">
+                        <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">Por Fabian Martinez</span>
+                        <span class="flex font-bold text-neutral-500">-</span>
+                        <span class="px-2 text-md font-medium text-neutral-500">Hace 3 días</span>
+                </div>
+                <div class="flex flex-row flex-wrap mx-4">
+                        <span class="label">#HTML</span>
+                        <span class="label">#CSS</span>
+                </div>
+                    <p class="flex flex-wrap mx-4 pt-4 text-md font-medium text-neutral-500">Aprende a como crear la estrutura básica de una web creando su header, el article section y su footer. 
+                    Todo esto y mucho más en este articulo...
+                </p>        
+    
+            <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
+        </div>
+
+            <!--ARTICLE-->
+        <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
+            <!-- ARTICLE TITLE -->
+                <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Contenido del curso básico)</h1>
+                    <div class="flex flex-row justify-start mx-4 py-2">
+                        <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">Por Fabian Martinez</span>
+                        <span class="flex font-bold text-neutral-500">-</span>
+                        <span class="px-2 text-md font-medium text-neutral-500">Hace 3 días</span>
+                </div>
+                <div class="flex flex-row flex-wrap mx-4">
+                        <span class="label">#HTML</span>
+                        <span class="label">#CSS</span>
+                </div>
+                    <p class="flex flex-wrap mx-4 pt-4 text-md font-medium text-neutral-500">Aprende a como crear la estrutura básica de una web creando su header, el article section y su footer. 
+                    Todo esto y mucho más en este articulo...
+                </p>        
+    
+            <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
+        </div>
+
+            <!--ARTICLE-->
+        <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
+            <!-- ARTICLE TITLE -->
+                <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Contenido del curso básico)</h1>
+                    <div class="flex flex-row justify-start mx-4 py-2">
+                        <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">Por Fabian Martinez</span>
+                        <span class="flex font-bold text-neutral-500">-</span>
+                        <span class="px-2 text-md font-medium text-neutral-500">Hace 3 días</span>
+                </div>
+                <div class="flex flex-row flex-wrap mx-4">
+                        <span class="label">#HTML</span>
+                        <span class="label">#CSS</span>
+                </div>
+                    <p class="flex flex-wrap mx-4 pt-4 text-md font-medium text-neutral-500">Aprende a como crear la estrutura básica de una web creando su header, el article section y su footer. 
+                    Todo esto y mucho más en este articulo...
+                </p>        
+    
+            <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
+        </div>
 
     </div>
+
+</div>
 
 
     <!--FOOTER-->
-    <div class="fixed bottom-0 w-full h-auto py-6 bg-neutral-900 text-neutral-200 font-light">
+    <div class="bottom-0 py-6 bg-neutral-900 text-neutral-200 font-light col-span-2">
 
         <div class="flex flex-row justify-evenly ">
 

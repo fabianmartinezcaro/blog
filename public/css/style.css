@@ -643,6 +643,14 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 .mr-14 {
   margin-right: 3.5rem;
 }
@@ -694,6 +702,9 @@ video {
 .w-full {
   width: 100%;
 }
+.w-auto {
+  width: auto;
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -718,6 +729,12 @@ video {
 .content-center {
   align-content: center;
 }
+.content-start {
+  align-content: flex-start;
+}
+.items-start {
+  align-items: flex-start;
+}
 .items-end {
   align-items: flex-end;
 }
@@ -736,11 +753,29 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.justify-around {
+  justify-content: space-around;
+}
 .justify-evenly {
   justify-content: space-evenly;
 }
+.justify-items-stretch {
+  justify-items: stretch;
+}
 .gap-y-4 {
   row-gap: 1rem;
+}
+.self-start {
+  align-self: flex-start;
+}
+.self-end {
+  align-self: flex-end;
+}
+.self-center {
+  align-self: center;
+}
+.self-stretch {
+  align-self: stretch;
 }
 .scroll-smooth {
   scroll-behavior: smooth;
@@ -782,9 +817,37 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+.object-left-bottom {
+  -o-object-position: left bottom;
+     object-position: left bottom;
+}
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -794,6 +857,15 @@ video {
 }
 .pt-10 {
   padding-top: 2.5rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.align-baseline {
+  vertical-align: baseline;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .font-barlow-semi-condensed {
   font-family: Barlow Semi Condensed, grotesk;
@@ -847,6 +919,14 @@ video {
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;

@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'lato':['Lato', 'sans-serif'],
-        'barlow-semi-condensed': ['Barlow Semi Condensed', 'grotesk']
+        'montserrat': ['Montserrat', 'sans-serif']
       },
 
       keyframes: {

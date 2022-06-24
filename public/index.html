@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Fabian Martinez</title>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
-<body class="bg-neutral-300 font-barlow-semi-condensed grid grid-cols-2 gap-y-4">
+<body class="bg-neutral-300 font-montserrat grid grid-cols-2 gap-y-4">
     
     <!--NAVBAR-->
     <div class="bg-neutral-200 flex flex-row items-stretch justify-between col-span-2">
@@ -32,16 +33,16 @@
 
     <div class="mx-4 grid grid-cols-1 gap-y-4">
         <!--BIO-->
-        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center rounded-lg w-fit h-max">
+        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center border border-neutral-400 rounded-lg w-fit h-max">
 
             <div class="mx-auto py-6">
                 <img class="w-56 h-56 rounded-full" src="https://i.imgur.com/aG9WnBV.jpg" alt="">
             </div>
             
             <div class="mr-14">
-            <p class="text-lg font-medium text-neutral-900 pb-2">Hey! I'm Fabian Martinez, Freelance Full Stack Developer and I'm going to teach you all about Web Development.</p>
+            <p class="text-md font-semibold text-neutral-900 pb-2">Hey! I'm Fabian Martinez, Freelance Full Stack Developer and I'm going to teach you all about Web Development.</p>
 
-                <div class="flex flex-row pt-2 flex-wrap border-t-2 border-t-neutral-400">
+                <div class="flex flex-row pt-2 flex-wrap border-t border-t-neutral-400">
                     <span class="label">#HTML</span>
                     <span class="label">#CSS</span>
                     <span class="label">#JAVASCRIPT</span>
@@ -59,25 +60,26 @@
     
     </div>
 
+    
     <!--ARTICLE-->
-    <div class="flex flex-wrap flex-col h-auto bg-neutral-200 mr-4 rounded-lg" onclick="window.location='/public/article.html';">
+    <div class="flex flex-wrap justify-center content-center flex-col h-auto border border-neutral-400 bg-neutral-200 mr-4 rounded-lg" onclick="window.location='/public/article.html';">
 
                 <!-- ATICLE TITLE -->
-                <h1 class="flex flex-wrap px-6 pt-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Curso Básico)</h1>
-                <div class="flex flex-row justify-start mx-6">
-                    <span class="text-lg font-medium hover:decoration-solid text-neutral-900">By Fabian Martinez</span>
-                    <span class="flex font-bold mx-2 text-neutral-500">-</span>
-                    <span class="text-lg font-medium text-neutral-500">Hace 3 días</span>
+                <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Curso Básico)</h1>
+                <div class="flex flex-row justify-start mx-4 py-2">
+                    <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">By Fabian Martinez</span>
+                    <span class="flex font-bold text-neutral-500">-</span>
+                    <span class="px-2 text-md font-medium text-neutral-500">Hace 3 días</span>
                 </div>
-                <div class="flex flex-row flex-wrap mx-6">
+                <div class="flex flex-row flex-wrap mx-4">
                     <span class="label">#HTML</span>
                     <span class="label">#CSS</span>
                 </div>
-                <p class="flex flex-wrap px-6 mt-4 text-neutral-500">Aprende a como crear la estrutura básica de una web creando su header, el article section y su footer. 
+                <p class="flex flex-wrap mx-4 pt-4 text-md font-medium text-neutral-500">Aprende a como crear la estrutura básica de una web creando su header, el article section y su footer. 
                 Todo esto y mucho más en este articulo...
                 </p>        
 
-                <a class="flex self-start mx-6 mt-2 font-medium no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
+                <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
             
 
     </div>
@@ -89,13 +91,13 @@
         <div class="flex flex-row justify-evenly ">
 
             <div class="flex flex-col">
-                <span class="font-bold">Socials</span>
+                <span class="font-bold mb-4">Socials</span>
                 <a href="">Twitter</a>
                 <a href="">Github</a>
             </div>
     
             <div class="flex flex-col">
-                <span class="font-bold">More Info</span>
+                <span class="font-bold mb-4">More Info</span>
                 <a href="">Contact</a>
                 <a href="">About Me</a>
                 <a href="">What I use</a>

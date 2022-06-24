@@ -32,7 +32,7 @@
 
     <div class="mx-4 grid grid-cols-1 gap-y-4">
         <!--BIO-->
-        <div class="transition ease-linear delay-100 hover:-translate-y-2 hover:shadow-lg hover:scale-100 bg-neutral-200 grid grid-cols-2 justify-center content-center items-center rounded-lg w-fit h-max">
+        <div class="bg-neutral-200 grid grid-cols-2 justify-center content-center items-center rounded-lg w-fit h-max">
 
             <div class="mx-auto py-6">
                 <img class="w-56 h-56 rounded-full" src="https://i.imgur.com/aG9WnBV.jpg" alt="">
@@ -59,29 +59,14 @@
     
     </div>
 
-    <div class="bg-sky-500 mr-4 h-auto rounded-lg">
+    <!--ARTICLE-->
+    <div class="flex flex-wrap flex-col bg-neutral-200 mr-4 h-auto rounded-lg" onclick="window.location='/public/article.html';">
 
-        <div class="mt-4">
-            <span class="text-neutral-500 font-medium text-lg mx-4">Recent Articles</span>
-        </div>
-
-        <!--ARTICLE-->
-        <div class="flex flex-row justify-between article-component article-title article-description cursor-pointer" onclick="window.location='/public/article.html';">
-
-            <!--TITLE & DESCRIPTION-->
-            <div class="h-auto w-max">
-                <h1 class="flex flex-wrap font-bold uppercase text-lg">How to integrate MYSQL in your projects</h1>
-                <span class="flex justify-start text-md font-medium">By Fabian Martinez</span>
-                <p class="flex flex-wrap pt-2 mt-2 text-neutral-500">How</p>               
-            </div>
-
-            <!--IMAGES-->
-            <div class="flex items-end bg-gray-500">
-                <img class="w-48 h-32" src="https://i.imgur.com/8tMUqYB.jpg" alt="">
-            </div>
-
-        </div>
-
+                <!---->
+                <h1 class="flex flex-wrap font-bold uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS.</h1>
+                <span class="flex justify-start text-md font-medium hover:decoration-solid">By Fabian Martinez</span>
+                <p class="flex flex-wrap pt-2 mt-2 text-neutral-500">How</p>        
+            
 
     </div>
 

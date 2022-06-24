@@ -54,15 +54,7 @@
         @apply 
         w-auto 
         h-auto 
-        my-4 
-        mx-4 
-        py-4 
-        px-4
-        border
-        border-sky-900
-        text-neutral-900
-        hover:text-neutral-900
-        hover:duration-500;
+        text-neutral-900;
 
 
     }

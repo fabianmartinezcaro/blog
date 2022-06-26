@@ -2,6 +2,9 @@
 module.exports = {
   content: ['/Users/fmartinez/FRONTEND_PROJECTS/fabianmartinezblog/public/index.html'],
   theme: {
+    screens:{
+      'xs':'375px',
+    },
     extend: {
       fontFamily:{
         'montserrat': ['Montserrat', 'sans-serif']

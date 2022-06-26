@@ -93,5 +93,74 @@
 
     }
 
+    .nav-xs{
+
+        @apply
+        xs:hidden;
+
+    }
+
+    .nav-md{
+
+        @apply
+        md:hidden
+        md:justify-between;
+
+    }
+
+
+    .bio-sm{
+
+        @apply
+        sm:grid 
+        sm:grid-cols-1 
+        sm:justify-center 
+        sm:content-center 
+        sm:items-center 
+        sm:align-middle 
+        sm:mx-4 
+        sm:py-2;
+
+    }
+
+    .bio-md{
+
+        @apply
+        md:grid 
+        md:grid-cols-1 
+        md:justify-center 
+        md:content-center 
+        md:items-center 
+        md:align-middle  
+        md:mx-4 
+        md:py-2;
+
+    }
+
+
+    .bio-lg{
+
+        @apply
+        lg:grid
+        lg:grid-cols-2 
+        lg:col-span-1 
+        lg:justify-center 
+        lg:content-center 
+        lg:items-center
+        lg:mx-2 
+        lg:py-2;
+
+    }
+
+    .section-articles-lg{
+
+        @apply
+        lg:grid 
+        lg:grid-cols-1 
+        lg:gap-y-4
+        
+
+    }
+
 
 }

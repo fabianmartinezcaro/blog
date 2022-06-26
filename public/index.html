@@ -19,7 +19,7 @@
             <span class="mx-10 font-mono"><span class="text-sky-600">fabian</span>martinez.cl</span>
         </div>
 
-        <div class="text-neutral-200 text-lg font-semibold grid grid-flow-col justify-center">
+        <div class="xs:hidden md:hidden md:justify-between lg:grid lg:grid-flow-col lg:justify-center text-neutral-200 text-lg font-semibold">
         
             <button class="nav-button">Contáctame</button>
             <button class="nav-button">Artículos</button>
@@ -32,9 +32,9 @@
     </div>
 
 
-<div class="grid grid-cols-2 gap-x-4 my-4 mx-4">
+<div class="md:gap-y-4 lg:grid lg:grid-cols-2 lg:gap-x-4 lg:my-4 lg:mx-4">
         <!--BIO-->
-        <div class="bg-gradient-to-r from-slate-800 to-cyan-700 backdrop:blur-lg lg:grid grid-cols-2 lg:col-span-1 lg:justify-center lg:content-center lg:items-center h-fit rounded-lg">
+        <div class="bio-md bio-lg bg-gradient-to-r from-slate-800 to-cyan-700 backdrop:blur-lg h-fit rounded-lg">
 
             <div class="mx-auto py-6">
                 <img class="w-56 h-56 rounded-full" src="https://i.imgur.com/aG9WnBV.jpg" alt="">
@@ -60,7 +60,7 @@
     
 
     <!--SECTION: ARTICLES-->
-    <div class="grid grid-cols-1 gap-y-4">
+    <div class="md:grid md:gap-y-4 section-articles-lg">
 
         <!--ARTICLE-->
         <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
@@ -98,7 +98,7 @@
                         <span class="label">#graphcms</span>
                 </div>
                     <p class="flex flex-wrap mx-4 pt-4 text-md font-medium text-neutral-500">En este articulo aprenderás a crear tu propio blog usando TailwindCSS, desarrollamos el routing interaction con Next.js 
-                    gestionamos el contenido con GraphCMS.</p>        
+                    y como gestionamos el contenido con GraphCMS.</p>        
     
             <a class="flex self-start mx-4 pt-2 font-semibold text-md no-underline hover:underline" href="/public/article.html">Continuar leyendo...</a>
         </div>
@@ -109,7 +109,7 @@
 
 
     <!--FOOTER-->
-    <div class="bottom-0 py-6 bg-neutral-900 text-neutral-200 font-light col-span-2">
+    <div class="relative w-full bottom-0 py-6 bg-neutral-900 text-neutral-200 font-light col-span-2">
 
         <div class="flex flex-row justify-evenly ">
 

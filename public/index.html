@@ -13,13 +13,14 @@
 <body class="bg-neutral-300 font-montserrat grid grid-cols-1">
     
     <!--NAVBAR-->
-    <div class="sticky top-0 w-full flex flex-row items-stretch justify-between col-span-2 bg-neutral-200 border-b border-neutral-400">
+    <div class="nav-xs nav-sm nav-md sticky top-0 w-full xl:flex xlflex-row xl:items-stretch xl:justify-between col-span-2 bg-neutral-200 border-b border-neutral-400">
+
 
         <div class="text-neutral-900 text-2xl font-bold flex justify-center items-center">
-            <span class="mx-10 font-mono"><span class="text-sky-600">fabian</span>martinez.cl</span>
+            <span class="font-mono"><span class="text-sky-600">fabian</span>martinez.cl</span>
         </div>
 
-        <div class="xs:hidden md:hidden md:justify-between lg:grid lg:grid-flow-col lg:justify-center text-neutral-200 text-lg font-semibold">
+        <div class="nav-options-xs nav-options-sm nav-options-md md:justify-between lg:grid lg:grid-flow-col lg:justify-center text-neutral-200 text-lg font-semibold">
         
             <button class="nav-button">Contáctame</button>
             <button class="nav-button">Artículos</button>
@@ -29,21 +30,27 @@
     
         </div>
 
+        <div class="lg:hidden xl:hidden my-4 space-y-2">
+            <span class="block w-8 h-0.5 bg-gray-600"></span>
+            <span class="block w-5 h-0.5 bg-gray-600"></span>
+        </div>
+          
+
     </div>
 
 
 <div class="md:gap-y-4 lg:grid lg:grid-cols-2 lg:gap-x-4 lg:my-4 lg:mx-4">
         <!--BIO-->
-        <div class="bio-md bio-lg bg-gradient-to-r from-slate-800 to-cyan-700 backdrop:blur-lg h-fit rounded-lg">
+        <div class="bio-xs bio-md bio-lg bg-gradient-to-r from-slate-800 to-cyan-700 backdrop:blur-lg lg:h-fit lg:rounded-lg">
 
-            <div class="mx-auto py-6">
+            <div class="xs:flex xs:justify-center xs:content-center mx-auto py-6">
                 <img class="w-56 h-56 rounded-full" src="https://i.imgur.com/aG9WnBV.jpg" alt="">
             </div>
             
-            <div class="mr-14">
-            <p class="text-md font-semibold text-neutral-200 pb-2">Hola! soy Fabián Martínez, tengo 24 años y soy de Chile. Me dedico al Desarrollo Web Full Stack.</p>
+            <div class="lg:mr-14 xl:mr-14">
+            <p class="xs:my-2 text-md font-semibold text-neutral-200 pb-2">Hola! soy Fabián Martínez, tengo 24 años y soy de Chile. Me dedico al Desarrollo Web Full Stack.</p>
 
-                <div class="flex flex-row pt-2 flex-wrap border-t border-t-neutral-200">
+                <div class="bio-info-xs flex flex-row pt-2 flex-wrap border-t border-t-neutral-200">
                     <span class="label">#HTML</span>
                     <span class="label">#CSS</span>
                     <span class="label">#JAVASCRIPT</span>
@@ -60,17 +67,17 @@
     
 
     <!--SECTION: ARTICLES-->
-    <div class="md:grid md:gap-y-4 section-articles-lg">
+    <div class="md:grid md:flex-grow md:gap-y-4 section-articles-lg">
 
         <!--ARTICLE-->
-        <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
+        <div class="article-xs flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 lg:rounded-lg" onclick="window.location='/public/article.html';">
         <!-- ARTICLE TITLE -->
             <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Aprende a maquetar una pagina web usando solamente HTML y CSS. (Contenido del curso básico)</h1>
-                <div class="flex flex-row justify-start mx-4 py-2">
+                <div class="article-editor-xs flex flex-row justify-start mx-4 py-2">
                     <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">Por Fabian Martinez</span>
                     <span class="flex font-bold text-neutral-500">-</span>
                     <span class="px-2 text-md font-medium text-neutral-500">Hace 3 días</span>
-            </div>
+                </div>
             <div class="flex flex-row flex-wrap mx-4">
                     <span class="label">#HTML</span>
                     <span class="label">#CSS</span>
@@ -84,14 +91,13 @@
         
 
         <!--ARTICLE-->
-        <div class="flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 rounded-lg" onclick="window.location='/public/article.html';">
+        <div class="article-xs flex flex-wrap justify-center content-center flex-col h-auto px-4 py-4 border border-neutral-400 bg-neutral-200 lg:rounded-lg" onclick="window.location='/public/article.html';">
             <!-- ARTICLE TITLE -->
                 <h1 class="flex flex-wrap mx-4 font-bold underline uppercase text-xl">Crea tu propio blog usando TailwindCSS, Next.js y GraphCMS</h1>
-                    <div class="flex flex-row justify-start mx-4 py-2">
+                    <div class="article-editor-xs lg:flex lg:flex-row justify-start mx-4 py-2">
                         <span class="pr-2 text-md font-medium hover:decoration-solid text-neutral-900">Por Fabian Martinez</span>
-                        <span class="flex font-bold text-neutral-500">-</span>
-                        <span class="px-2 text-md font-medium text-neutral-500">Hace 2 semanas</span>
-                </div>
+                        <span class="px-2 text-md font-medium text-neutral-500">- Hace 2 semanas</span>
+                    </div>
                 <div class="flex flex-row flex-wrap mx-4">
                         <span class="label">#Tailwindcss</span>
                         <span class="label">#nextjs</span>
@@ -109,26 +115,26 @@
 
 
     <!--FOOTER-->
-    <div class="relative w-full bottom-0 py-6 bg-neutral-900 text-neutral-200 font-light col-span-2">
+    <div class="footer-xs relative w-full bottom-0 py-6 bg-neutral-900 text-neutral-200 font-light col-span-2">
 
-        <div class="flex flex-row justify-evenly ">
+        <div class="footer-info-xs ls:flex lg:flex-row lg:justify-evenly">
 
-            <div class="flex flex-col">
-                <span class="font-bold mb-4">Socials</span>
+            <div class="footer-info-xs flex flex-col">
+                <span class="font-bold mb-4">You can find me on</span>
                 <a href="">Twitter</a>
                 <a href="">Github</a>
             </div>
     
-            <div class="flex flex-col">
+            <div class="footer-info-xs flex flex-col">
                 <span class="font-bold mb-4">More Info</span>
                 <a href="">Contact</a>
                 <a href="">About Me</a>
                 <a href="">What I use</a>
             </div>
     
-            <div class="flex flex-col">
+            <div class="footer-nl-xs flex flex-col">
                 <span class="font-bold">Newsletter</span>
-                <div class="flex flex-row justify-center content-center">
+                <div class="input-nl-xs lg:flex lg:flex-row justify-center content-center">
                     <input class="input-black-style" type="text" placeholder="Your Email...">
                     <button class="button-black">Subscribe</button>
                 </div>    

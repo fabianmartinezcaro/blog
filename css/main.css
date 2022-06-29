@@ -96,30 +96,86 @@
     .nav-xs{
 
         @apply
-        xs:hidden;
+        xs:flex
+        xs:flex-row
+        xs:justify-between
+        xs:mx-auto
+        xs:px-4;
+
+    }
+
+    .nav-sm{
+
+        @apply
+        sm:text-center
 
     }
 
     .nav-md{
 
         @apply
-        md:hidden
         md:justify-between;
 
     }
 
-
-    .bio-sm{
+    .nav-options-xs{
 
         @apply
-        sm:grid 
-        sm:grid-cols-1 
-        sm:justify-center 
-        sm:content-center 
-        sm:items-center 
-        sm:align-middle 
-        sm:mx-4 
-        sm:py-2;
+        xs:hidden;
+
+    }
+
+    .nav-options-sm{
+
+        @apply
+        sm:hidden;
+
+    }
+
+
+    .nav-options-md{
+
+        @apply
+        md:hidden;
+
+    }
+
+    .bio-xs{
+
+        @apply
+        xs:grid 
+        xs:grid-cols-1 
+        xs:justify-center 
+        xs:content-center 
+        xs:items-center 
+        xs:align-middle 
+        xs:mx-auto 
+        xs:py-4
+        xs:text-center
+        xs:rounded-none;
+
+    }
+
+    .bio-info-xs{
+
+        @apply
+        xs:flex 
+        xs:flex-col 
+        xs:justify-center 
+        xs:content-center
+        xs:items-center
+        xs:align-middle;
+
+    }
+
+
+    .bio-labels-xs{
+
+        @apply
+        xs:flex 
+        xs:justify-center 
+        xs:content-center
+        xs:mx-auto;
 
     }
 
@@ -133,7 +189,8 @@
         md:items-center 
         md:align-middle  
         md:mx-4 
-        md:py-2;
+        md:py-2 
+        md:text-center;
 
     }
 
@@ -160,6 +217,65 @@
         lg:gap-y-4
         
 
+    }
+
+    .article-xs{
+
+        @apply
+        xs:my-4
+        xs:rounded-none;
+        
+
+    }
+
+    .article-editor-xs{
+
+        @apply
+        xs:flex
+        xs:flex-col;
+
+    }
+
+    .footer-xs{
+
+        @apply
+        xs:flex
+        xs:flex-col
+        xs:justify-center
+        xs:content-center
+        xs:items-center;
+
+    }
+
+    .footer-info-xs{
+
+        @apply
+        xs:my-10
+        xs:text-center;
+
+    }
+
+    .footer-nl-xs{
+
+        @apply
+        xs:flex
+        xs:flex-col
+        xs:justify-center
+        xs:content-center
+        xs:my-4
+        xs:text-center;
+
+    }
+
+    .input-nl-xs{
+
+        @apply
+        xs:flex
+        xs:flex-col
+        xs:justify-center
+        xs:content-center
+        xs:items-center
+        
     }
 
 
